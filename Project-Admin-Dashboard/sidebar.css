@@ -1,0 +1,77 @@
+@import url(global.css);
+
+#sidebar{
+
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    background-color: var(--color-primary);
+    padding-top: 15px;
+    padding-right: 20px;
+
+}
+
+#dashboard{
+
+    padding-left: 25px;
+
+}
+
+#name-dashboard{
+
+    color: var(--color-quintuary);
+    font-family: var(--font-titles);
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.links-imgs-dashboard{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#icon-img-dashboard{
+
+    width: 50px;
+    height: auto;
+
+}
+
+.icons-imgs-dashboard{
+
+    width: 30px;
+    height: auto;
+
+}
+
+#pages{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 25px;
+
+}
+
+#others{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 25px;
+
+}
+
+.names-dashboard{
+
+    color: var(--color-quintuary);
+    font-family: var(--font-sub-titles);
+    font-weight: normal;
+    padding-left: 10px;
+
+}

@@ -1,0 +1,57 @@
+.container {
+  display: inline-grid;
+  grid-template: 100px 100px 100px 100px 100px / 100px 100px 100px 100px 100px;
+  background-color: lightblue; 
+
+  /*Organizado por nomes, como se fosse preencher uma tabela:
+  grid-template-areas:
+    "living-room living-room living-room living-room living-room"
+    "living-room living-room living-room living-room living-room"
+    "bedroom bedroom bathroom kitchen kitchen"
+    "bedroom bedroom bathroom kitchen kitchen"
+    "closet closet . . ."    
+}
+*/
+
+}
+
+/*Podemos também organizar a grid pelos números das celulas como vemos abaixos:*/
+
+.room {
+  border: 1px solid;
+  font-size: 50%;
+  text-align: center;
+}
+
+#living-room {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#kitchen {
+  grid-column: 10 / 6;
+  grid-row: 3 / 6;
+}
+
+#bedroom {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+#bathroom {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+#closet {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}

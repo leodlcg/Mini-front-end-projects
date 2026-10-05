@@ -1,0 +1,167 @@
+#content-others{
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1;
+    place-items: center;
+    min-width: 200px;
+    gap: 10px;
+
+    width: 40%;
+    height: 100%;
+
+}
+
+.content-other-announcements{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 360px;
+    background-color: var(--color-quintuary);
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    overflow: auto;
+
+}
+
+.name-other{
+
+    text-align: center;
+    font-family: var(--font-titles);
+    color: var(--color-titles);
+
+}
+
+.name-description-other{
+
+    font-family: var(--font-titles);
+    color: var(--color-titles);
+    margin-bottom: -15px;
+    text-align: start;
+
+}
+
+.description-other{
+
+    text-align: justify;
+    font-family: var(--font-titles);
+    color: var(--color-descriptions);
+    font-size: 13px;
+
+}
+
+.linha-other{
+
+    align-self: center;
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.content-other-trending{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 250px;
+    background-color: var(--color-quintuary);
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    overflow: auto;
+
+}
+
+.content-other-trending::-webkit-scrollbar{
+
+    width: 10px;
+    height: 10px;
+
+}
+
+.content-other-trending::-webkit-scrollbar-track{
+
+    background: var(--color-quintuary);
+    border-radius: 10px;
+
+}
+
+.content-other-trending::-webkit-scrollbar-thumb{
+
+    background: #6366f1;
+    border-radius: 10px;
+
+}
+
+.content-other-trending::-webkit-scrollbar-thumb:hover{
+
+    background: #4f46e5;
+
+}
+
+.users-other{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+}
+
+.texts-user-other{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+
+}
+
+.name-user-other{
+
+    font-family: var(--font-titles);
+    color: var(--color-titles);
+
+}
+
+.short-description-user-other{
+
+    font-family: var(--font-titles);
+    color: var(--color-descriptions);
+    font-size: 13px;
+
+}
+
+.background-icon-user-other{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+
+}
+
+.icon-user-other{
+
+    width: 50px;
+    height: auto;
+
+}
+
+@media (max-width: 700px){
+
+    #content-others{
+        
+        display: none;
+
+    }
+    
+}

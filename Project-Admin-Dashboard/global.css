@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-tertiary)
+
+}
+
+
+:root{
+
+    --font-titles: Cambria, Arial, serif;
+    --font-sub-titles: 'Franklin Gothic Medium', sans-serif;
+    --color-titles: rgb(16, 14, 14);
+    --color-descriptions: rgb(81, 81, 81);
+
+    --color-primary: #8965e5;
+    --color-secondary: #3fdd3f;
+    --color-tertiary: #de567e;
+    --color-quaternary: #429fe1;
+    --color-quaternary: #429fe1;
+    --color-quintuary: #e5e7eb;
+
+}
+
+
+#main{
+
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+#main-content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    min-height: 0;
+    overflow: hidden;
+
+}
